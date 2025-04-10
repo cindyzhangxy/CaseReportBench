@@ -1,0 +1,25 @@
+name: CaseReportBench
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - tqdm
+  - scikit-learn
+  - altair
+  - vegafusion
+  - ray
+  - ipykernel
+  - jupyter
+  - pip
+  - pip:
+      - transformers
+      - datasets
+      - evaluate
+      - huggingface_hub
+      - fuzzywuzzy
+      - python-Levenshtein
+      - dspy-ai
+      - ollama
