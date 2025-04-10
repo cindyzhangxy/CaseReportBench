@@ -54,8 +54,8 @@ dataset = load_dataset("cxyzhang/consolidated_expert_validated_denseExtractionDa
 
 ## 🔓 License
 
-- **Code**: MIT License ([LICENSE](LICENSE))
-- **Dataset**: CC BY-NC 4.0 ([DATA_LICENSE](DATA_LICENSE))
+- **Code**: MIT License ([https://github.com/cindyzhangxy/CaseReportBench/blob/main/LICENSE.txt](LICENSE))
+- **Dataset**: CC BY-NC 4.0 ([https://github.com/cindyzhangxy/CaseReportBench/blob/main/DATA_LICENSE.txt](DATA_LICENSE))
 
 > The dataset is derived from the PubMed Central Open Access Subset and is for **non-commercial academic use** only.
 
