@@ -3,6 +3,8 @@
 _Official repository for the **accepted** CHIL 2025 paper_  
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-blue.svg)](https://huggingface.co/datasets/cxyzhang/consolidated_expert_validated_denseExtractionDataset)
 [![Conference](https://img.shields.io/badge/Accepted%20at-CHIL%202025-4b8bbe)](https://chil.ahli.cc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
+[![Cite this](https://img.shields.io/badge/Cite-BibTeX-blue)](#-citation)
 
 ---
 
