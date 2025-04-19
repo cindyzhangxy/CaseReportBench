@@ -1,12 +1,25 @@
 # CaseReportBench: Benchmarking LLMs for Dense Information Extraction in Clinical Case Reports
 
 _Official repository for the **accepted** CHIL 2025 paper_  
-[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-blue.svg)](https://huggingface.co/datasets/cxyzhang/consolidated_expert_validated_denseExtractionDataset)
+[![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-blue.svg)](https://huggingface.co/datasets/cxyzhang/caseReportBench_ClinicalDenseExtraction_Benchmark).
 [![Conference](https://img.shields.io/badge/Accepted%20at-CHIL%202025-4b8bbe)](https://chil.ahli.cc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [![Cite this](https://img.shields.io/badge/Cite-BibTeX-blue)](#-citation)
 
 ---
+
+## 🔔 Note
+
+This github Repo accompanies our upcoming publication:
+
+> **Zhang et al. CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports.**  
+> *To appear in the Proceedings of the Conference on Health, Inference, and Learning (CHIL 2025), PMLR.*
+
+The official PMLR citation and link will be added upon publication.
+
+---
+
+
 
 ## 📘 Overview
 
@@ -43,7 +56,7 @@ conda activate CaseReportBench
 ## 📦 Dataset Access
 
 The dataset is available on the Hugging Face Hub:  
-👉 https://huggingface.co/datasets/cxyzhang/consolidated_expert_validated_denseExtractionDataset
+👉 https://huggingface.co/datasets/cxyzhang/caseReportBench_ClinicalDenseExtraction_Benchmark
 
 To load it in Python:
 
@@ -67,11 +80,14 @@ dataset = load_dataset("cxyzhang/consolidated_expert_validated_denseExtractionDa
 If you use this work in your research, please cite:
 
 ```bibtex
-@inproceedings{casereportbench2025,
+@inproceedings{zhang2025casereportbench,
   title     = {CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports},
-  author    = {Xiao Yu Cindy Zhang, Carlos R. Ferreira, Francis Rossignol, Raymond T. Ng, Wyeth Wasserman, Jian Zhu},
+  author    = {Zhang, Cindy and Others},
   booktitle = {Proceedings of the Conference on Health, Inference, and Learning (CHIL)},
+  series    = {Proceedings of Machine Learning Research},
+  volume    = {vX},  % Update when available
   year      = {2025},
-  note      = {Accepted}
+  publisher = {PMLR},
+  note      = {To appear}
 }
 
