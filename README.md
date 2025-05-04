@@ -41,7 +41,6 @@ The `src/` folder contains all key components for dataset construction, promptin
 | Folder | Description |
 |--------|-------------|
 | `dataset_construction/` | Scripts to process PMC-OA case reports, filter IEM cases, and structure data into prompt-ready JSON. Includes code for expert annotation merging and TSR filtering. |
-| `prompting/` | Code to run LLMs (local or API) using structured prompts (UGP, FCSP, UCP), including category-specific and unified templates. Also supports prompt instantiation and model input formatting. |
 | `benchmarking_llms/` | Evaluate LLM dense information extractions against gold expert-crafted annotations, and compute all metrics (TSR, EM, hallucination, etc). |
 
 ## 🧪 Setup Instructions
