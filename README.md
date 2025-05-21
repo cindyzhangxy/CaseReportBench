@@ -43,6 +43,16 @@ The `src/` folder contains all key components for dataset construction, promptin
 | `dataset_construction/` | Scripts to process PMC-OA case reports, filter IEM cases, and structure data into prompt-ready JSON. Includes code for expert annotation merging and TSR filtering. |
 | `benchmarking_llms/` | Evaluate LLM dense information extractions against gold expert-crafted annotations, and compute all metrics (TSR, EM, hallucination, etc). |
 
+## Supplementary Materials (`supplemengary_material/`)
+
+This dataset includes the following supplementary files:
+- `65_Excluded_Subheadings_Casefilter.json`: Subheading-level case filtering metadata.
+- `65_Subheading_Category_Mapping.json`: Mapping of subheadings to clinical categories.
+- `65_Excluded_Title_Manual_Review.txt`: Manually reviewed titles excluded from the dataset.
+
+These files support the CHIL 2025 submission and are referenced in the accompanying arXiv paper.
+
+
 ## 🧪 Setup Instructions
 
 To set up the environment using Conda:
