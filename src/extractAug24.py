@@ -190,59 +190,6 @@ class Vitals_Hema(Signature):
                   }""")
 
 
-
-class Immune(Signature):
-    """
-    Extract immunological, serological, oncological observations, and related physical exam or imaging findings from provided text, focusing on conditions, cell counts, biomarkers, and excluding any unrelated systemic conditions, treatments, or non-diagnostic content such as figures and tables.
-    """
-    text = InputField(
-        desc="Medical text."
-    )
-
-    extract_info = OutputField(
-        desc="Organize immunological, oncological information, and related exam or imaging findings into a JSON-compliant dictionary, focusing on precise and clinically relevant data.",
-        prefix="""Based on the provided text, extract and return immunological, oncological information, and related physical exam or imaging findings in a structured dictionary format. Include the following top-level keys:
-                  - 'immunity_conditions': List the current cofirmed immunological conditions.
-                  - 'immune_cell_counts': Detailed counts of immune cells like lymphocytes, monocytes, etc.
-                  - 'immunophenotyping': Results from immunophenotyping tests detailing the types and statuses of immune cells.
-                  - 'autoimmune_markers': List markers indicative of autoimmune diseases.
-                  - 'inflammatory_markers': Include levels of inflammatory markers such as CRP, ESR, or procalcitonin.
-                  - 'serology': Results from serological tests indicating the presence of specific antibodies or antigens.
-                  - 'infectious_disease_status': Document current infectious diseases confirmed through clinical evaluation or laboratory testing.
-                  - 'malignancy_biomarkers': List specific biomarkers that are used to diagnose or monitor malignancies, such as tumor markers or genetic mutations.
-                  - 'malignancy_condition': List confirmed current diagnosis and conditions related to malignancies, detailing the type of cancer and any relevant clinical observations.
-                  - 'immunology_exam_image': Include any positive or negative findings if available from physical exams or imaging studies that are pertinent to the immunological, infectious disease, or oncological conditions.
-                  All entries are verbatim quotes from or clear deductions based on the provided text, without making assumptions.
-                  All entries should focus on diagnostic clarity and exclude any treatment details, references to figures, tables.
-                  For all entries, do not infer or suggest possible underlying or associated conditions that are not explicitly part of immunological or infectious diseases or oncological observations.
-                  
-                  Example output for provided text containing relevant data:
-                  {
-                    "immunity_conditions": ["Chronic lymphocytic leukemia diagnosed"],
-                    "immune_cell_counts": ["Lymphocytes: 5000 cells/µL"],
-                    "immunophenotyping": ["CD4 cell count: 350 cells/µL"],
-                    "autoimmune_markers": ["ANA positive"],
-                    "inflammatory_markers": ["CRP: 10 mg/L"],
-                    "serology": ["HIV antibodies detected"],
-                    "infectious_disease_status": ["Confirmed COVID-19 infection"],
-                    "malignancy_biomarkers": ["CA-125 elevated indicating possible ovarian cancer"],
-                    "malignancy_condition": ["Diagnosed with Stage II breast cancer"],
-                    "immunology_exam_image": ["Ultrasound shows enlarged lymph nodes", "MRI scan detects multiple myeloma lesions"]
-                  }
-                  Example output if no relevant data is available:
-                  {
-                    "immunity_conditions": [],
-                    "immune_cell_counts": [],
-                    "immunophenotyping": [],
-                    "autoimmune_markers": [],
-                    "inflammatory_markers": [],
-                    "serology": [],
-                    "infectious_disease_status": [],
-                    "malignancy_biomarkers": [],
-                    "malignancy_condition": [],
-                    "immunology_exam_image": []
-                  }""")
-
 class Neuro(Signature):
     """
     Extract detailed information from medical texts focusing on assessments related to neurological and cognitive functions, as well as conditions specifically affecting the head. This class is designed to capture observations, diagnostic results, and imaging findings specific to these areas, explicitly excluding treatment details and any unrelated systemic conditions.
@@ -628,3 +575,4 @@ class History(Signature):
                     "family_and_genetics_history": [],
                     "chief_complaint": [] 
                   }""")
+
