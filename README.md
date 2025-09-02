@@ -90,13 +90,13 @@ If you use this work in your research, please cite:
 
 ```bibtex
 @inproceedings{zhang2025casereportbench,
-  title     = {CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports},
-  author    = {Zhang, Cindy and Others},
-  booktitle = {Proceedings of the Conference on Health, Inference, and Learning (CHIL)},
-  series    = {Proceedings of Machine Learning Research},
-  volume    = {vX},  % Update when available
-  year      = {2025},
-  publisher = {PMLR},
-  note      = {To appear}
+title={CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports},
+author={Zhang, Xiao Yu Cindy and Ferreira, Carlos R. and Rossignol, Francis and Ng, Raymond T. and Wasserman, Wyeth and Zhu, Jian},
+booktitle={Proceedings of the Sixth Conference on Health, Inference, and Learning},
+series={Proceedings of Machine Learning Research},
+volume={287},
+pages={527--542},
+year={2025},
+publisher={PMLR}
 }
 
