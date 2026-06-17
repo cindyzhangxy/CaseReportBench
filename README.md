@@ -6,7 +6,7 @@
 [![Cite this](https://img.shields.io/badge/Cite-BibTeX-blue)](#-citation)
 # CaseReportBench: Benchmarking LLMs for Dense Information Extraction in Clinical Case Reports
 Official repository accompanying the CHIL 2025 paper.
-## Publication]
+## Publication
 ```
 Zhang, X.Y.C., Ferreira, C.R., Rossignol, F., Ng, R.T., Wasserman, W.W., and Zhu, J.
 CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports.
