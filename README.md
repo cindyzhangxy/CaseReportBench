@@ -1,24 +1,18 @@
 # CaseReportBench: Benchmarking LLMs for Dense Information Extraction in Clinical Case Reports
 
-_Official repository for the **accepted** CHIL 2025 paper_  
+Official repository accompanying the CHIL 2025 paper.
 [![Dataset](https://img.shields.io/badge/Dataset-HuggingFace-blue.svg)](https://huggingface.co/datasets/cxyzhang/caseReportBench_ClinicalDenseExtraction_Benchmark).
 [![Conference](https://img.shields.io/badge/Accepted%20at-CHIL%202025-4b8bbe)](https://chil.ahli.cc/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
 [![Cite this](https://img.shields.io/badge/Cite-BibTeX-blue)](#-citation)
 
----
-
-## 🔔 Note
-
-This github Repo accompanies our upcoming publication:
-
-> **Zhang et al. CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports.**  
-> *To appear in the Proceedings of the Conference on Health, Inference, and Learning (CHIL 2025), PMLR.*
-
-The official PMLR citation and link will be added upon publication.
-
----
-
+## Publication]
+```
+Zhang, X.Y.C., Ferreira, C.R., Rossignol, F., Ng, R.T., Wasserman, W.W., and Zhu, J.
+CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports.
+Proceedings of the Sixth Conference on Health, Inference, and Learning (CHIL 2025), PMLR 287:527–542.
+```
+[![Paper](https://img.shields.io/badge/Paper-PMLR-blue.svg)](https://proceedings.mlr.press/v287/zhang25b.html) 
 
 
 ## 📘 Overview
@@ -86,17 +80,14 @@ dataset = load_dataset("cxyzhang/consolidated_expert_validated_denseExtractionDa
 
 ## 📝 Citation
 
-If you use this work in your research, please cite:
-
-```bibtex
-@inproceedings{zhang2025casereportbench,
-title={CaseReportBench: An LLM Benchmark Dataset for Dense Information Extraction in Clinical Case Reports},
-author={Zhang, Xiao Yu Cindy and Ferreira, Carlos R. and Rossignol, Francis and Ng, Raymond T. and Wasserman, Wyeth and Zhu, Jian},
-booktitle={Proceedings of the Sixth Conference on Health, Inference, and Learning},
-series={Proceedings of Machine Learning Research},
-volume={287},
-pages={527--542},
-year={2025},
-publisher={PMLR}
+```
+@article{zhang2025casereportbench,
+  title={Casereportbench: An llm benchmark dataset for dense information extraction in clinical case reports},
+  author={Zhang, Xiao Yu Cindy and Ferreira, Carlos R and Rossignol, Francis and Ng, Raymond T and Wasserman, Wyeth and Zhu, Jian},
+  journal={Proceedings of machine learning research},
+  volume={287},
+  pages={527},
+  year={2025}
 }
+```
 
